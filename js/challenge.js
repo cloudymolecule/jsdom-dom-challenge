@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
         rate = heartRate
         let li = document.createElement("li")
         li.setAttribute("id", pausedRate.toString())
-        li.appendChild(document.createTextNode(`${heartRate.toString()} has been liked ${howManyTimes(li.id)} times`))
+        li.appendChild(document.createTextNode(`${pausedRate.toString()} has been liked ${howManyTimes(li.id)} times`))
         likes.appendChild(li)
         ids2 = li.id
     })
